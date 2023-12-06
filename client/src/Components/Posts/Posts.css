@@ -1,0 +1,28 @@
+.posts {
+    flex: 12;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-top: 0px;
+    overflow-y: scroll;
+    height: 90vh;
+    white-space: nowrap;
+
+    /* Hide the scrollbar for Firefox */
+    scrollbar-width: none;
+    scrollbar-color: transparent transparent; /* thumb color, track color */
+  }
+  
+  /* Optional: Customize the appearance of the thumb and track */
+  .posts::-webkit-scrollbar {
+    width: 0; /* This is needed for webkit-based browsers */
+  }
+  
+  .posts::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  .posts::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  

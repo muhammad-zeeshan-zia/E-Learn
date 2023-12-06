@@ -1,0 +1,81 @@
+.singlePost {
+    flex: 9;
+    width: 1000px;
+  }
+  
+  .singlePostWrapper {
+    padding: 20px;
+    padding-right: 0;
+   
+  }
+  
+  .singlePostImg {
+    width: auto;
+    
+    height: 300px;
+    border-radius: 5px;
+    object-fit: fill;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+  }
+  
+  .singlePostTitle {
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    font-family: "Lora", sans-serif;
+  }
+  
+  .singlePostEdit {
+    float: right;
+    font-size: 16px;
+  }
+  
+  .singlePostIcon {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .singlePostIcon:first-child {
+    color: teal;
+  }
+  
+  .singlePostIcon:nth-child(2) {
+    color: tomato;
+  }
+  
+  .singlePostInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #be9656;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  }
+  
+  .singlePostAuthor {
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: cursive;
+    text-transform:uppercase;
+  }
+  
+  .singlePostDesc {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5; /* Adjust the line height for better readability */
+    white-space: pre-line; /* Preserve line breaks in the text */
+    overflow-wrap: break-word; /* Wrap long words to prevent overflow */
+    word-wrap: break-word; /* Additional word wrap rule for compatibility */
+  }
+  
+  .singlePostDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .link{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
