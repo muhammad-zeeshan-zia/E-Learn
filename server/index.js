@@ -16,7 +16,6 @@ mongoose.connect(process.env.MONGO_URL,{useNewUrlParser:true,useUnifiedTopology:
 .then(console.log("Databse Connected")).catch((err)=>{
     console.log(err);
 })
-
 //Use Router
 
 app.use('/api/auth/',authRoute);
